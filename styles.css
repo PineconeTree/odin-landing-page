@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.headerLinks {
+    color: #E5E7EB;
+    font-size: 18px;
+    text-decoration: none;
+    display: flex;
+    gap: 24px;
+}
+
+.headerLogo {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.topPortion {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+}
