@@ -36,3 +36,51 @@ body {
     flex-direction: column;
     background-color: #1F2937;
 }
+
+.hero {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 64px 0;
+    margin: 0 auto;
+}
+
+.heroLeft {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    width: 35%;
+}
+
+.heroRight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 240px;
+    width: 35%;
+    flex-wrap: wrap;
+    background-color: darkgray;
+}
+
+.heroBigText {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.heroButton {
+    color: #E5E7EB;
+    background-color: #3882f6;
+    padding: 12px;
+    border-radius: 8px;
+    font-weight: 600;
+    width: 25%;
+    border: 1px solid #3882f6;
+}
+
+.heroSecondaryText {
+    font-size: 18px;
+    color: #E5E7EB;
+}
