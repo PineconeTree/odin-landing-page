@@ -103,10 +103,6 @@ body {
   gap: 16px;
 }
 
-.randomInfo {
-  margin-bottom: 200px;
-}
-
 .infoBoxTitle {
   padding: 16px;
   border: 3px solid #3882f6;
@@ -129,4 +125,30 @@ body {
   font-size: 18px;
   color: #1f2937;
   text-align: center;
+}
+
+.quoteSection {
+  margin-top: 32px;
+  padding-top: 64px;
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.quoteSectionTop {
+  flex-wrap: wrap;
+  font-size: 36px;
+  font-family: "light italic", serif;
+  width: 70%;
+}
+
+.quoteSectionBottom {
+  font-size: 24px;
+  font-family: "light italic", serif;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-end;
+  margin-right: 256px;
 }
