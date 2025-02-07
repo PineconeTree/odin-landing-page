@@ -86,7 +86,7 @@ body {
 }
 
 .randomInfo {
-  background-color: #ffffff;
+	background-color: #ffffff;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -96,59 +96,91 @@ body {
 }
 
 .randomInfoBottomBoxes {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  gap: 16px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	gap: 16px;
 }
 
 .infoBoxTitle {
-  padding: 16px;
-  border: 3px solid #3882f6;
-  height: 200px;
-  border-radius: 8px;
+	padding: 16px;
+	border: 3px solid #3882f6;
+	height: 200px;
+	border-radius: 8px;
 }
 
 .randomInfoTitle {
-  font-size: 36px;
-  font-weight: 900;
-  color: #1f2937;
-  margin-bottom: 32px;
+	font-size: 36px;
+	font-weight: 900;
+	color: #1f2937;
+	margin-bottom: 32px;
 }
 
 .infoBox {
-  width: 200px;
+	width: 200px;
 }
 
 .infoBoxText {
-  font-size: 18px;
-  color: #1f2937;
-  text-align: center;
+	font-size: 18px;
+	color: #1f2937;
+	text-align: center;
 }
 
 .quoteSection {
-  margin-top: 32px;
-  padding-top: 64px;
-  background-color: #e5e7eb;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+	margin-top: 32px;
+	padding-top: 64px;
+	padding-bottom: 64px;
+	background-color: #e5e7eb;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
 
 .quoteSectionTop {
-  flex-wrap: wrap;
-  font-size: 36px;
-  font-family: "light italic", serif;
-  width: 70%;
+	flex-wrap: wrap;
+	font-size: 36px;
+	font-family: "light italic", serif;
+	width: 70%;
 }
 
 .quoteSectionBottom {
-  font-size: 24px;
-  font-family: "light italic", serif;
-  display: flex;
-  flex-direction: row;
-  align-self: flex-end;
-  margin-right: 256px;
+	font-size: 24px;
+	font-family: "light italic", serif;
+	display: flex;
+	flex-direction: row;
+	align-self: flex-end;
+	margin-right: 256px;
+}
+
+.callToAction {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-evenly;
+	gap: 16px;
+	padding: 64px 0;
+	background-color: #3882f6;
+	margin-left: 20%;
+	margin-right: 20%;
+	border-radius: 8px;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	color: #f9faf8;
+	flex-wrap: wrap;
+}
+
+.leftCallToAction h1 {
+	font-size: 24px;
+	font-weight: 900;
+}
+
+.callToActionButton {
+	color: #f9faf8;
+	background-color: #3882f6;
+	padding: 8px 24px;
+	border-radius: 8px;
+	font-weight: 600;
+	border: 1px solid #f9faf8;
 }
